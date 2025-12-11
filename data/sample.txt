@@ -1,0 +1,30 @@
+What is Attention Mechanism?
+
+The attention mechanism is a fundamental component in modern neural networks, particularly in transformer architectures. It allows the model to focus on different parts of the input when processing information.
+
+Key Concepts:
+
+1. Self-Attention: Enables the model to weigh the importance of different words in a sentence relative to each other. This helps capture contextual relationships.
+
+2. Multi-Head Attention: Uses multiple attention mechanisms in parallel, allowing the model to attend to information from different representation subspaces at different positions.
+
+3. Query, Key, Value: The attention mechanism uses three vectors:
+   - Query: What we're looking for
+   - Key: What we're comparing against
+   - Value: What we retrieve based on the attention scores
+
+Applications:
+
+- Natural Language Processing (NLP): Used in models like BERT, GPT, and T5
+- Machine Translation: Helps align source and target language sequences
+- Image Processing: Vision transformers use attention for image classification
+- Speech Recognition: Captures temporal dependencies in audio data
+
+Benefits:
+
+- Captures long-range dependencies better than RNNs
+- Enables parallel processing, making training faster
+- Provides interpretability through attention weights
+- State-of-the-art performance on various tasks
+
+The attention mechanism revolutionized deep learning by enabling models to dynamically focus on relevant information, leading to significant improvements in various AI applications.
